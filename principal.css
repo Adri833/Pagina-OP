@@ -1,0 +1,58 @@
+.titulo {
+    text-align: center;
+    color:chartreuse;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.fotobanner {
+    width: 100vw;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    width:  100vw;
+    height: 50px;
+}
+
+.navegador {
+    color: chartreuse;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 120px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+hr {
+    height: 4px;
+    background-color: whitesmoke;
+}
+
+footer {
+    color: rgb(249, 249, 249);
+    text-align: end;
+}
+
+body {
+    background-color: rgb(8, 0, 26);
+}
+
+.textomain {
+    text-align: center;
+    color: red;
+}
+
+.tabla {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.fototablas {
+    position: absolute;
+    top:850px;
+    left: 750px;
+}

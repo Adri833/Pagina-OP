@@ -1,0 +1,63 @@
+nav {
+    text-align: center;
+    background-color: black;
+    width:  100vw;
+    height: 50px;
+}
+
+.navegador {
+    color: chartreuse;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 120px;
+    text-align: left;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: rgb(29, 6, 82);
+}
+
+th {    
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+
+td {
+    text-align: right;
+    font-size: 25px;
+}
+
+.Luffy {
+    background-color: rgb(211, 211, 211);
+    color: rgb(241, 58, 119);
+}
+
+.Zoro {
+    background-color: rgb(67, 205, 67);
+    color: black;
+}
+
+.Sanji {
+    background-color: yellow;
+    color: black;
+}
+
+.Eustass {
+    background-color: rgb(120, 15, 24);
+    color: rgb(199, 199, 0);
+}
+
+.Trafalgar {
+    background-color: rgb(154, 154, 36);
+    color: rgb(13, 100, 250);
+}
+
+.Ace {
+    background-color: rgba(255, 0, 0, 0.726);
+    color: rgb(255, 128, 0);
+}

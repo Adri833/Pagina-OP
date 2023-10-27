@@ -1,0 +1,25 @@
+nav {
+    text-align: center;
+    background-color: black;
+    width:  100vw;
+    height: 50px;
+}
+
+.navegador {
+    color: chartreuse;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 120px;
+    text-align: left;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: rgb(8, 0, 26);
+}
+
+label{
+    color: aliceblue;
+}
