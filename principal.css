@@ -7,6 +7,7 @@
 
 .fotobanner {
     width: 100vw;
+    align-items: center;
 }
 
 nav {
@@ -52,7 +53,5 @@ body {
 }
 
 .fototablas {
-    position: absolute;
-    top: 1000px;
-    left: 1250px;
+    float: right;
 }
