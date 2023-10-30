@@ -6,8 +6,10 @@
 }
 
 .fotobanner {
-    width: 100vw;
-    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 100%;
+
 }
 
 nav {
