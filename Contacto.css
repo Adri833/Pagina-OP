@@ -11,7 +11,7 @@ nav {
     width:  100vw;
     height: 50px;
     margin: auto;
-    animation: slideFromTop 1.2s ease;
+    animation: slideFromTop 1s ease;
 }
 
 .navegador {
