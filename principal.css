@@ -106,14 +106,15 @@ body {
 
 @media (max-width: 768px) {
     .titulo{
-        font-size: 21px;
+        font-size: 30px;
     }
 
     nav{
         width: auto;
     }
     .navegador{
-        font-size: 15px;
+        font-size: 22px;
+        margin: 10px;
     }
 
     .fotobanner{
@@ -125,20 +126,19 @@ body {
     }
 
     .textomain{
-        font-size: small;
+        font-size: medium;
     }
 
     .tabla {
-        font-size: 10px;
-        text-align: center
+        font-size: 15px;
+        
     }
-    tabla ul, li{
-        list-style: none;
-    }
-
-    
 
     .fototabla1{
         width: 100%;
+    }
+
+    footer{
+        font-size: 15px
     }
 }
