@@ -130,8 +130,12 @@ body {
 
     .tabla {
         font-size: 10px;
+        text-align: center
     }
-    .fototablas{
-        width: 10px;
+    tabla ul, li{
+        list-style: none;
+    }
+    .fototabla1{
+        width: 100%;
     }
 }
