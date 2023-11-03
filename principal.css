@@ -103,6 +103,35 @@ body {
         transform: translate(0);
     }
 }
+
 @media (max-width: 768px) {
-    
+    .titulo{
+        font-size: 21px;
+    }
+
+    nav{
+        width: auto;
+    }
+    .navegador{
+        font-size: 15px;
+    }
+
+    .fotobanner{
+        width: 100%;
+    }
+
+    hr{
+        height: 3px;
+    }
+
+    .textomain{
+        font-size: small;
+    }
+
+    .tabla {
+        font-size: 10px;
+    }
+    .fototablas{
+        width: 10px;
+    }
 }
