@@ -5,6 +5,37 @@
     animation: slideFromTop 1s ease;
 }
 
+.menu_barras {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    float: right;
+}
+
+.menu_barras span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: blue;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+}
+
+.activeline1__bars-menu {
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activeline2__bars-menu {
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3__bars-menu {
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+
 .fotobanner {
     display: flex;
     margin: auto;

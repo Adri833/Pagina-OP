@@ -37,15 +37,6 @@ table {
    animation: slideFromAbove 1.5s ease;
 }
 
-@keyframes slideFromAbove {
-    from {
-        transform: translateY(170%);
-    }
-    to {
-        transform: translateY(0%);
-    }
-}
-
 th {    
     background-color: rgba(0, 255, 179, 0.616);
     color: black;
@@ -98,5 +89,32 @@ td {
     }
     to {
         transform: rotateY(0); /*Vuelve a su estado original*/
+    }
+}
+
+@keyframes slideFromAbove {
+    from {
+        transform: translateY(170%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo{
+        font-size: 30px;
+    }
+
+    nav{
+        width: auto;
+    }
+    .navegador{
+        font-size: 22px;
+        margin: 10px;
+    }
+
+    {
+        display: inline;
     }
 }
