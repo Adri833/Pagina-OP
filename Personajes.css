@@ -102,19 +102,15 @@ td {
 }
 
 @media (max-width: 768px) {
-    .titulo{
+    .titulo {
         font-size: 30px;
     }
 
-    nav{
+    nav {
         width: auto;
     }
-    .navegador{
+    .navegador {
         font-size: 22px;
         margin: 10px;
-    }
-
-    {
-        display: inline;
     }
 }
