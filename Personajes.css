@@ -113,4 +113,33 @@ td {
         font-size: 22px;
         margin: 10px;
     }
+
+    table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tbody {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Personajes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    th {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table img {
+        width: 100%;
+    }
 }
