@@ -106,6 +106,10 @@ td {
         font-size: 30px;
     }
 
+    body {
+        margin: 15px;
+    }
+
     nav {
         width: auto;
     }
