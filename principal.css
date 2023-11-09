@@ -65,7 +65,7 @@ nav {
 hr {
     height: 4px;
     background-color: whitesmoke;
-    animation: slideFromAbove 1.5s ease;
+    animation: WriteIn 1.5s ease-in-out;
 }
 
 footer {
@@ -132,6 +132,14 @@ body {
     }
     to{
         transform: translate(0); /*Vuelve a su posicion original*/
+    }
+}
+
+@keyframes WriteIn {
+    from {
+        width: 0%;
+    } to {
+        width: 100%;
     }
 }
 
