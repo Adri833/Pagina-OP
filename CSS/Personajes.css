@@ -1,6 +1,5 @@
 .titulo {
     text-align: center;
-    padding-right: 48px;
     color:chartreuse;
     font-family: 'Kanit', sans-serif;
     animation: slideFromTop 1s ease, rainbow 6s linear infinite;
@@ -31,6 +30,17 @@
     letter-spacing: 1px;
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
+
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+
+.indexnav a:hover {
+    color: rgb(180, 15, 15); /*Establece el color rojo al pasar el raton por la etiqueta*/
+    transform: scale3d(1.5, 1.5, 0.3); /*Hace el texto 1.5 veces mas grande en eje X e Y, y 0.3 veces en el eje Z*/
+    -webkit-transform: scale3d(1.5, 1.5, 0.3); /*Lo mismo para navegadores webkit (chrome, safari...)*/
+    -moz-transform: scale3d(1.5, 1.5, 0.3) /*Lo mismo para navegadores Mozilla (Firefox...)*/
 }
 
 .fotonav {
@@ -127,7 +137,6 @@ td {
 @media (max-width: 768px) {
     .titulo {
         font-size: 30px;
-        padding-left: 29px;
     }
 
     body {
