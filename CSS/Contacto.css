@@ -1,28 +1,41 @@
 .titulo {
     text-align: center;
+    margin-right: 80px;
     color:chartreuse;
     font-family: 'Kanit', sans-serif;
-    animation: slideFromTop 1s ease;
+    animation: slideFromTop 1s ease, rainbow 6s linear infinite;
 }
 
-nav {
-    text-align: center;
-    background-color: rgba(21, 5, 146, 0.696);
-    width:  100vw;
-    height: 50px;
+.fotobanner {
+    display: flex;
     margin: auto;
+    animation: slideFromTop 1.6s ease;
+}
+
+.indexnav {
+    text-justify: center;
+    background-color: rgba(22, 2, 167, 0.696);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    height: 80px;
+    align-items: center;
     animation: slideFromTop 1s ease;
 }
 
-.navegador {
+.indexnav a {
     color: chartreuse;
     font-size: 30px;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-right: 35px;
-    text-align: center;
-    justify-content: center;
     font-family: 'Kanit', sans-serif;
+}
+
+.fotonav {
+    width: 80px; 
+    height: auto; 
 }
 
 body {
@@ -40,4 +53,14 @@ label{
     to {
         transform: rotateY(0); /*Vuelve a su estado original*/
     }
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    16.66% { color: orange; }
+    33.33% { color: yellow; }
+    50% { color: green; }
+    66.66% { color: blue; }
+    83.33% { color: blueviolet; }
+    100% { color: red; }
 }
