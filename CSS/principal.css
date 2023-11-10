@@ -1,39 +1,9 @@
 .titulo {
     text-align: center;
+    padding-left: 32px;
     color:chartreuse;
     font-family: 'Kanit', sans-serif;
-    animation: slideFromTop 1s ease;
-}
-
-.menu_barras {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    cursor: pointer;
-    float: right;
-}
-
-.menu_barras span {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: blue;
-    margin-top: 6px;
-    transform-origin: 0px 100%;
-    transition: all 300ms;
-}
-
-.activeline1__bars-menu {
-    transform: rotate(45deg) translate(-2px, 1px);
-}
-
-.activeline2__bars-menu {
-    opacity: 0;
-    margin-left: -30px;
-}
-
-.activeline3__bars-menu {
-    transform: rotate(-45deg) translate(-4px, 2px);
+    animation: slideFromTop 1s ease, rainbow 6s linear infinite;
 }
 
 .fotobanner {
@@ -42,24 +12,30 @@
     animation: slideFromTop 1.6s ease;
 }
 
-nav {
-    text-align: center;
-    background-color: rgba(21, 5, 146, 0.696);
-    width:  100vw;
-    height: 50px;
-    margin: auto;
+.indexnav {
+    text-justify: center;
+    background-color: rgba(22, 2, 167, 0.696);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    height: 80px;
+    align-items: center;
     animation: slideFromTop 1s ease;
 }
 
-.navegador {
+.indexnav a {
     color: chartreuse;
     font-size: 30px;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-right: 80px;
-    text-align: center;
-    justify-content: center;
     font-family: 'Kanit', sans-serif;
+}
+
+.fotonav {
+    width: 80px; 
+    height: auto; 
 }
 
 hr {
@@ -143,20 +119,35 @@ body {
     }
 }
 
+@keyframes rainbow {
+    0% { color: red; }
+    16.66% { color: orange; }
+    33.33% { color: yellow; }
+    50% { color: green; }
+    66.66% { color: blue; }
+    83.33% { color: blueviolet; }
+    100% { color: red; }
+}
+
 @media (max-width: 768px) { 
     /*CSS para visualizarlo en móvil, se ajustan tamaños*/
     .titulo{
         font-size: 30px;
+        display: flex;
     }
 
-    nav{
+    .indexnav{
         width: auto;
     }
-    .navegador{
+   .indexnav a{
         font-size: 22px;
         margin: 10px;
     }
 
+    .fotonav {
+        width:40px;
+        height: auto;
+    }
     .fotobanner{
         width: 100%;
     }
