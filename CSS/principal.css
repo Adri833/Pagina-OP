@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(8, 0, 26);
+    margin:20px;
+    overflow-x: hidden;
+}
+
 .titulo {
     text-align: center;
     color:chartreuse;
@@ -18,6 +24,7 @@
     flex-direction: row;
     justify-content: space-around;
     font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
     width: 100%;
     height: 80px;
     align-items: center;
@@ -48,22 +55,39 @@
     height: auto; 
 }
 
+#simplebutton {
+    background-color: red; /* Color de fondo */
+    color: white; 
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#simplebutton:hover {
+    background-color: rgba(253, 0, 0, 0.646);
+}
+
+#simplebutton:active {
+    transform: scale(0.8);
+}
+
+
 hr {
     height: 4px;
     background-color: whitesmoke;
     animation: WriteIn 1.5s ease-in-out;
+    border-radius: 5px;
 }
 
 footer {
     color: rgb(249, 249, 249);
     text-align: end;
+    font-family: 'Kanit', sans-serif;
     animation: slideFromRight 2s ease;
-}
-
-body {
-    background-color: rgb(8, 0, 26);
-    margin:20px;
-    overflow-x: hidden;
 }
 
 .textomain {
