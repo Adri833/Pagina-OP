@@ -6,6 +6,9 @@
     <title>Contacto</title>
     <link rel="shortcut icon" href="./Imagenes/favicon telefono.png">
     <link rel="stylesheet" href="/CSS/Contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Julee&family=Kanit&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,6 +18,11 @@
             <img class="fotonav" src="/Imagenes/favicon ace.ico" alt="Imagen nav">
             <a href="Personajes.html">Personajes</a>
         </nav>
+
+        <ul class="breadcrumb">
+            <li><a href ="index.html">Inicio</a></li>
+            <li>Contacto</li>
+          </ul>
     </header>
 
     <audio src="/Musica/Den Den Mushi.mp3" autoplay></audio>
@@ -24,22 +32,22 @@
     <form>
         <table>
             <td><label for="IdNombre">Nombre:</label>
-            <input id="IdNombre" type="text" name="Nombre" required></td>
+            <input id="IdNombre" type="text" name="Nombre" size="30" required></td>
 
             <tr></tr>
 
             <td><label for="idEmail">Email:</label>
-            <input id="idEmail" type="email" name="Email" size="25" required></td>
+            <input id="idEmail" type="email" name="Email" size="30" required></td>
 
             <tr></tr>
 
             <td><label for="idTelefono">Telefono:</label>
-            <input id="idTelefono" type="tel" name="Telefono">></td>
+            <input id="idTelefono" type="tel" name="Telefono" size="30"></td>
 
             <tr></tr>
 
             <td><label for="idComentario">Tu comentario:</label>
-            <input class="coment" id="idComentario" type="text" name="Comentario" size="60"></td>
+            <input class="coment" id="idComentario" type="text" name="Comentario" size="30"></td>
 
             <tr></tr>
 
@@ -47,6 +55,6 @@
 
         </table>
     </form>
-    <img src="./Imagenes/favicon telefono.png" title="Den Den Mushi" width="455">
+    <img class="dendenmushi" src="./Imagenes/favicon telefono.png" title="Den Den Mushi" width="455">
 </body>
 </html>

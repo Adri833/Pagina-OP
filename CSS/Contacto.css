@@ -5,11 +5,6 @@
     animation: slideFromTop 1s ease, rainbow 6s linear infinite;
 }
 
-.fotobanner {
-    display: flex;
-    margin: auto;
-    animation: slideFromTop 1.6s ease;
-}
 
 .indexnav {
     text-justify: center;
@@ -21,6 +16,7 @@
     width: 100%;
     height: 80px;
     align-items: center;
+    border-radius: 10px;
     animation: slideFromTop 1s ease;
 }
 
@@ -48,6 +44,36 @@
     height: auto; 
 }
 
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: rgb(115, 18, 115);
+    border-radius: 10px;
+    animation: slideFromTop 1.0s ease;
+}
+  
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    font-family: 'Josefin-Sans', sans-serif;
+}
+
+  ul.breadcrumb li+li:before { /*apunta a todos los elementos li excepto el primero.*/
+    padding: 8px;
+    color: black;
+    content: "/\00a0"; /*Barra diagonal y espacio para cada elemento antes de li*/
+}
+  
+ul.breadcrumb li a {
+    color: rgba(128, 255, 0, 0.612);
+    text-decoration: none;
+}
+  
+ul.breadcrumb li a:hover {
+    color: #0080f0;
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(8, 0, 26);
 }
@@ -56,12 +82,29 @@ label{
     color: aliceblue;
 }
 
+table {
+    animation: slideFromLeft 1.5s ease;
+}
+
+.dendenmushi {
+    animation: slideFromLeft 1.5s ease;
+}
+
 @keyframes slideFromTop {
     from {
         transform: translateY(-300%); /*Sale por la izquierda*/
     }
     to {
         transform: rotateY(0); /*Vuelve a su estado original*/
+    }
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-200%); /*Sale desde la izquierda*/
+    }
+    to{
+        transform: translate(0); /*Vuelve a su posicion original*/
     }
 }
 
