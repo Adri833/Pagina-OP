@@ -44,10 +44,10 @@ body {
 }
 
 .indexnav a:hover {
-    color: rgb(180, 15, 15); /*Establece el color rojo al pasar el raton por la etiqueta*/
-    transform: scale3d(1.5, 1.5, 0.3); /*Hace el texto 1.5 veces mas grande en eje X e Y, y 0.3 veces en el eje Z*/
-    -webkit-transform: scale3d(1.5, 1.5, 0.3); /*Lo mismo para navegadores webkit (chrome, safari...)*/
-    -moz-transform: scale3d(1.5, 1.5, 0.3) /*Lo mismo para navegadores Mozilla (Firefox...)*/
+    color: rgb(180, 15, 15); 
+    transform: scale3d(1.5, 1.5, 0.3);
+    -webkit-transform: scale3d(1.5, 1.5, 0.3);
+    -moz-transform: scale3d(1.5, 1.5, 0.3) 
 }
 
 .fotonav {
@@ -67,12 +67,6 @@ ul.breadcrumb li {
     display: inline;
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-.botones {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
 }
 
 #simplebutton {
